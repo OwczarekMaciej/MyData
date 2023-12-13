@@ -6,8 +6,8 @@ public class ConvertMyData {
         String inputFile = "InputData.txt";
         String outputFile = "MyData.txt";
 
-        int numOfMatchedDates = convertDate(inputFile, outputFile);
-        System.out.println("\nNumber of rewritten dates: " + numOfMatchedDates);
+        int numOfRewDates = convertDate(inputFile, outputFile);
+        System.out.println("\nNumber of rewritten dates: " + numOfRewDates);
     }
 
     public static int convertDate(String inputFile, String outputFile) {
